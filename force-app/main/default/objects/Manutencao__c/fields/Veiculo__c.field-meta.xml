@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Veiculo__c</fullName>
+    <description>Relaciona a manutenção ao veículo</description>
+    <inlineHelpText>Selecione o veículo desta manutenção</inlineHelpText>
+    <label>Veiculo</label>
+    <referenceTo>Veiculo__c</referenceTo>
+    <relationshipLabel>Manutenções</relationshipLabel>
+    <relationshipName>Manutencoes</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>true</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>
